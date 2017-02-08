@@ -31,7 +31,7 @@ f <- d + e
     * 2.2.2.2 (that is, question 2 in section 2.2.2): "What happens to a factor when you modify its levels?"
 ```
 f1 <- factor(letters)
-levels(f1) <- ref(levels(f1))
+levels(f1) <- rev(levels(f1))
 ```
     * 2.2.2.3: What does this code do?
 ```
